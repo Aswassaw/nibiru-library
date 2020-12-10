@@ -1,0 +1,77 @@
+/* Mengubah font */
+* {
+    font-family: "poppinsregular", arial, sans-serif;
+}
+
+/* Penanganan navbar fixed-top */
+body {
+    padding-top: 80px;
+    transition: 0.2s;
+}
+
+/* Style saat mode gelap aktif */
+body.dark{
+    background-color: #1c1d22;
+    color: white;
+}
+
+/* Style untuk switch mode gelap */
+.wadah-tema-mode {
+    color: white;
+    transition: 0.2s;
+    transform: scale(1.3);
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* Kotak tempat switch dark mode */
+.dark-mode {
+    width: 150px;
+    height: 30px;
+    position: fixed;
+    top: 85px;
+    right: 20px;
+    z-index: 99;
+    border-radius: 15px;
+    background-color: #344a8b;
+}
+
+/* Transisi ketika dark mode di card hilang */
+.card {
+    transition: 0.2s;
+}
+
+/* Style untuk merubah warna card content menjadi dark */
+.card-dark {
+    background-color: #2d3038;
+}
+
+/* Mengatur font untuk judul form login */
+.login-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Merubah cursor menjadi pointer */
+.show-password {
+    cursor: pointer;
+}
+
+/* Merubah gambar jumbotron home */
+.jumbotron-home {
+    background-image: url('../img/gambar/library.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Mengatur agar text di dalam table akan berada di tengah secara vertikal */
+.table > tbody > tr > * {
+    vertical-align: middle;
+    transition: 0.2s;
+}
+
+/* Mengubah warna tulisan dalam tabel ketika darkmode aktif */
+body.dark .table > tbody > tr > * {
+    color: white;
+}
