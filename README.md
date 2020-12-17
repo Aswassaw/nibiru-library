@@ -20,9 +20,11 @@ Cara penggunaan:
 - Buatlah database dengan nama nibiru_library, lalu import file sql yang telah disertakan.
 - Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan php spark serve.
 - Akun yang tersedia untuk login:
+
   Admin:
   - NIS: 1234567890
   - Password: #@nibiru1029384756world$*
+  
   Siswa:
   - NIS: 0035000001
   - Password: up1-0035000001
