@@ -14,7 +14,7 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-CI_ENVIRONMENT = development
+CI_ENVIRONMENT = production
 
 #--------------------------------------------------------------------
 # APP
@@ -50,7 +50,7 @@ CI_ENVIRONMENT = development
 #--------------------------------------------------------------------
 
 database.default.hostname = localhost
-database.default.database = multiplecrudajax
+database.default.database = nibiru_library
 database.default.username = root
 database.default.password = 
 database.default.DBDriver = MySQLi
