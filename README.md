@@ -1,10 +1,10 @@
 # Nibiru Library
 
-## Apa itu Nibiru Libraray?
+## Apa itu Nibiru Library?
 
 Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan CodeIgniter4 dan Bootstrap4.
 
-Fitur-fitur pada Nibiru Library:
+## Fitur-fitur pada Nibiru Library
 - Login
 - Logout
 - CRUD data siswa
@@ -18,18 +18,18 @@ Fitur-fitur pada Nibiru Library:
 - Like buku
 - Dark mode
 
-Cara penggunaan:
+## Cara penggunaan Nibiru Library
 - Pastikan composer terinstall.
 - Pastikan versi PHP yang terinstall adalah versi 7.3 ke atas.
 - Buatlah database dengan nama nibiru_library, lalu import file sql yang telah disertakan.
 - Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan php spark serve.
 - Akun yang tersedia untuk login:
 
-  Admin:
+  ### Admin:
   - NIS: 1234567890
   - Password: #@nibiru1029384756world$*
   
-  Siswa:
+  ### Siswa:
   - NIS: 0035000001
   - Password: up1-0035000001
   - NIS: 0035000002
