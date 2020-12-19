@@ -2,7 +2,7 @@
 
 ## Apa itu Nibiru Library?
 
-Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan CodeIgniter4 dan Bootstrap4.
+Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan CodeIgniter 4 dan Bootstrap 4.
 
 ## Fitur-fitur pada Nibiru Library
 - Login
