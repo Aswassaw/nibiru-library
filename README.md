@@ -10,9 +10,9 @@ Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan Co
 - CRUD data siswa
 - CRUD data buku
 - CRUD data kategori
+- Pagination dan Searching
 - Lihat detail buku
 - Peminjaman buku
-- Pagination dan Searching
 - Cetak laporan peminjaman
 - Pengembalian buku
 - Cetak laporan pengembalian
