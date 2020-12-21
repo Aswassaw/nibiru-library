@@ -1,3 +1,21 @@
+/*!
+ * =============================================================
+ * dropify v0.2.2 - Override your input files with style.
+ * https://github.com/JeremyFagis/dropify
+ *
+ * (c) 2017 - Jeremy FAGIS <jeremy@fagis.fr> (http://fagis.fr)
+ * =============================================================
+ */
+
+;(function(root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define(['jquery'], factory);
+  } else if (typeof exports === 'object') {
+    module.exports = factory(require('jquery'));
+  } else {
+    root.Dropify = factory(root.jQuery);
+  }
+}(this, function($) {
 var pluginName = "dropify";
 
 /**
@@ -28,7 +46,7 @@ function Dropify(element, options) {
         allowedFormats: ['portrait', 'square', 'landscape'],
         allowedFileExtensions: ['*'],
         messages: {
-            'default': 'Drag and drop a file here or click',
+            'default': 'Tarik gambar ke sini atau Klik',
             'replace': 'Drag and drop or click to replace',
             'remove':  'Remove',
             'error':   'Ooops, something wrong happended.'
@@ -634,3 +652,6 @@ $.fn[pluginName] = function(options) {
     return this;
 };
 
+
+return Dropify;
+}));
