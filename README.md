@@ -7,6 +7,7 @@ Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan Co
 ## Fitur-fitur pada Nibiru Library
 - Login
 - Logout
+- Show password
 - CRUD data siswa
 - CRUD data buku
 - CRUD data kategori
@@ -17,7 +18,6 @@ Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan Co
 - Pengembalian buku
 - Cetak laporan pengembalian
 - Like buku
-- Show password
 - Dark mode
 
 ## Cara penggunaan Nibiru Library
