@@ -22,10 +22,10 @@ Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan Co
 ## Cara penggunaan Nibiru Library
 - Pastikan composer terinstall.
 - Pastikan versi PHP yang terinstall adalah versi 7.3 ke atas.
-- Jalankan composer install.
-- Ubah file env menjadi .env.
-- Buatlah database dengan nama nibiru_library, lalu import file sql yang telah disertakan.
-- Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan php spark serve.
+- Jalankan `composer install`.
+- Ubah file `env` menjadi `.env`.
+- Buatlah database dengan nama `nibiru_library`, lalu import file sql yang telah disertakan.
+- Untuk menjalankan, jangan pindahkan aplikasi ke dalam htdocs, cukup gunakan `php spark serve`.
 - Akun yang tersedia untuk login:
 
   ### Admin:
