@@ -29,8 +29,8 @@ Nibiru Library adalah aplikasi perpustakaan sederhana yang dibuat menggunakan Co
 - Akun yang tersedia untuk login:
 
   ### Admin:
-  - NIS: `1234567890`
-  - Password: `#@nibiru1029384756world$*`
+  - NIS: 1234567890
+  - Password: #@nibiru1029384756world$*
   
   ### Siswa:
   - NIS: 0035000001
